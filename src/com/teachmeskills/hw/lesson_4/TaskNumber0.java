@@ -12,16 +12,16 @@ public class TaskNumber0 {
         System.out.println("Please, enter a number: ");
         Scanner input = new Scanner(System.in);
         int userInput = input.nextInt();
-        boolean isArrayContainsEnteredNumber = false;
+        boolean isArrayContainEnteredNumber = false;
 
         for (int j : integerArray) {
             if (userInput == j) {
-                isArrayContainsEnteredNumber = true;
+                isArrayContainEnteredNumber = true;
                 break;
             }
         }
 
-        if (isArrayContainsEnteredNumber)
+        if (isArrayContainEnteredNumber)
         {
             System.out.println("The array contains the entered number");
         }
