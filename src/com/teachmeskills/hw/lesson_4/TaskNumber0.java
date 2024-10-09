@@ -14,9 +14,8 @@ public class TaskNumber0 {
         int userInput = input.nextInt();
         boolean isArrayContainsEnteredNumber = false;
 
-        for (int i = 0; i < integerArray.length; i++){
-            if (userInput == integerArray[i])
-            {
+        for (int j : integerArray) {
+            if (userInput == j) {
                 isArrayContainsEnteredNumber = true;
                 break;
             }
