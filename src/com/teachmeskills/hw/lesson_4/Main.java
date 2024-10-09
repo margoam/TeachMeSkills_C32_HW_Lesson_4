@@ -30,6 +30,12 @@ public class Main {
                 TaskNumber2.TaskNumber2Runner();
                 break;
             }
+            case("Task3"):
+            {
+                System.out.println("Task number 3 is launched.");
+                TaskNumber3.TaskNumber3Runner();
+                break;
+            }
             default:
             {
                 System.out.println("Incorrect task is selected. Please, try again.");
