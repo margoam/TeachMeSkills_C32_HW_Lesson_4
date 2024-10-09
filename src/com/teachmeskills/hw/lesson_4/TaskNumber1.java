@@ -30,7 +30,7 @@ public class TaskNumber1 {
         for (int j : integerArray) {
             if (j != userInput) {
                 newArray[newArrayIndex] = j;
-                newArrayIndex++;  //
+                newArrayIndex++;  // index for a new array
             }
         }
 
