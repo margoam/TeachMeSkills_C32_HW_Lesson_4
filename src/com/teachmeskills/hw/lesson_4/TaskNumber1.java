@@ -5,15 +5,15 @@ import java.util.Scanner;
 
 /**
  * 1. Создайте массив целых чисел. Удалите все вхождения заданного
- *числа из массива.
- *Пусть число задается с консоли (класс Scanner). Если такого числа нет -
- *выведите сообщения об этом.
- *В результате должен быть новый массив без указанного числа.
+ * числа из массива.
+ * Пусть число задается с консоли (класс Scanner). Если такого числа нет -
+ * выведите сообщения об этом.
+ * В результате должен быть новый массив без указанного числа.
  */
 
 public class TaskNumber1 {
 
-    public static void TaskNumber1Runner(){
+    public static void TaskNumber1Runner() {
 
         int[] integerArray = {14, -5, -123, -34, 44, 6, 87, 45, 35, 3, 45};
         System.out.println("Please enter the number to be removed from the array: ");
@@ -39,8 +39,7 @@ public class TaskNumber1 {
         if (newArray.length != integerArray.length) {
             System.out.println("Initial array is: " + Arrays.toString(integerArray));
             System.out.println("New array is: " + Arrays.toString(newArray));
-        }
-        else {
+        } else {
             System.out.println("The array isn't changed.");
         }
     }

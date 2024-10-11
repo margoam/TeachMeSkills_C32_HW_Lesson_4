@@ -13,34 +13,28 @@ public class Main {
         Scanner input = new Scanner(System.in);
         String userChoice = input.nextLine();
 
-        switch (userChoice)
-        {
-            case("Task0"):
-            {
+        switch (userChoice) {
+            case ("Task0"): {
                 System.out.println("Task number 0 is launched.");
                 TaskNumber0.TaskNumber0Runner();
                 break;
             }
-            case("Task1"):
-            {
+            case ("Task1"): {
                 System.out.println("Task number 1 is launched.");
                 TaskNumber1.TaskNumber1Runner();
                 break;
             }
-            case("Task2"):
-            {
+            case ("Task2"): {
                 System.out.println("Task number 2 is launched.");
                 TaskNumber2.TaskNumber2Runner();
                 break;
             }
-            case("Task3"):
-            {
+            case ("Task3"): {
                 System.out.println("Task number 3 is launched.");
                 TaskNumber3.TaskNumber3Runner();
                 break;
             }
-            default:
-            {
+            default: {
                 System.out.println("Incorrect task is selected. Please, try again.");
             }
         }

@@ -12,7 +12,7 @@ import java.util.Arrays;
 
 public class TaskNumber3 {
 
-    public static void TaskNumber3Runner(){
+    public static void TaskNumber3Runner() {
 
         int[] firstArray = new int[5];
         int[] secondArray = new int[5];
