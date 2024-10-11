@@ -2,6 +2,9 @@ package com.teachmeskills.hw.lesson_4;
 
 import java.util.Scanner;
 
+/**
+ * For running tasks
+ */
 public class Main {
 
     public static void main(String[] args) {
